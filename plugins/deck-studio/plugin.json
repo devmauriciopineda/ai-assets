@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deck-studio",
+  "version": "0.1.0",
+  "description": "Genera presentaciones sobre cualquier tema: entrevista guiada, investigacion con fuentes atribuidas, deck HTML a pantalla completa en espanol, informe de soporte y fichero de fuentes. Autocontenido: sin dependencias, sin build y sin configuracion externa.",
+  "keywords": ["presentaciones", "slides", "deck-html", "investigacion", "espanol", "localhost"]
+}

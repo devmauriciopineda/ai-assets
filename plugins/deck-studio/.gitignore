@@ -1,0 +1,12 @@
+# Notas de investigación — memoria de trabajo desechable, nunca un entregable
+.tmp/
+
+# Node.js — el validador no tiene dependencias, pero evita instalaciones sueltas
+node_modules/
+npm-debug.log*
+
+# Ruido de sistema y editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp

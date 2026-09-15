@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es" data-palette="paper" data-style="editorial" data-typography="serif-display">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tema de la presentación · Presentación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="deck-progressbar" aria-hidden="true"><span class="deck-progressbar__fill"></span></div>
+
+  <main id="deck">
+
+    <!-- s1 · cover -->
+    <section class="slide slide--cover" id="s1" data-type="cover" data-title="Portada">
+      <p class="cover-kicker">Charla · Uso educativo</p>
+      <h1 class="cover-title anim anim--fade-up">Título de la presentación</h1>
+      <p class="cover-subtitle anim anim--fade-up" style="--delay:120ms">Subtítulo con el ángulo concreto del tema</p>
+      <p class="cover-meta">15 diapositivas · Informe de soporte incluido</p>
+    </section>
+
+    <!-- s2 · index -->
+    <section class="slide slide--index" id="s2" data-type="index" data-title="Índice">
+      <header class="slide-head">
+        <h1 class="slide-title">Índice</h1>
+      </header>
+      <ul class="index-list">
+        <li><a class="index-link anim anim--from-left" href="#s1" data-title="Portada" style="--delay:0ms"><span class="index-num">01</span><span class="index-label">Portada</span></a></li>
+        <li><a class="index-link anim anim--from-left" href="#s3" data-title="Qué es" style="--delay:120ms"><span class="index-num">03</span><span class="index-label">Qué es</span></a></li>
+        <li><a class="index-link anim anim--from-left" href="#s4" data-title="Comparativa" style="--delay:240ms"><span class="index-num">04</span><span class="index-label">Comparativa</span></a></li>
+        <li><a class="index-link anim anim--from-left" href="#s5" data-title="Ficha" style="--delay:0ms"><span class="index-num">05</span><span class="index-label">Ficha</span></a></li>
+        <li><a class="index-link anim anim--from-left" href="#s6" data-title="Un perfil" style="--delay:120ms"><span class="index-num">06</span><span class="index-label">Un perfil</span></a></li>
+        <li><a class="index-link anim anim--from-left" href="#s7" data-title="Una cita" style="--delay:240ms"><span class="index-num">07</span><span class="index-label">Una cita</span></a></li>
+        <li><a class="index-link anim anim--from-left" href="#s8" data-title="Datos" style="--delay:0ms"><span class="index-num">08</span><span class="index-label">Datos</span></a></li>
+        <li><a class="index-link anim anim--from-left" href="#s9" data-title="Cierre" style="--delay:120ms"><span class="index-num">09</span><span class="index-label">Cierre</span></a></li>
+      </ul>
+    </section>
+
+    <!-- s3 · content with figure -->
+    <section class="slide slide--content" id="s3" data-type="content" data-title="Qué es">
+      <header class="slide-head">
+        <h1 class="slide-title anim anim--fade-up">Qué es</h1>
+        <p class="slide-subtitle">Definición y alcance del tema en una frase informativa.</p>
+      </header>
+      <div class="slide-body grid-2">
+        <div class="prose anim anim--fade-up">
+          <p>Texto dominante de la diapositiva, entre sesenta y ciento veinte palabras, con los datos
+          verificables que sostienen la idea central.</p>
+          <p>Segundo párrafo: matices, contexto o consecuencias.</p>
+        </div>
+        <figure class="figure anim anim--from-right">
+          <img src="assets/context/imagen.jpg" alt="Descripción breve de la imagen de contexto" data-credit="Autor · Origen">
+          <figcaption>Pie de foto con la atribución de la imagen.</figcaption>
+        </figure>
+      </div>
+      <p class="source-note">Fuente: organismo o publicación, año.</p>
+    </section>
+
+    <!-- s4 · table -->
+    <section class="slide slide--table" id="s4" data-type="table" data-title="Comparativa">
+      <header class="slide-head">
+        <h1 class="slide-title anim anim--fade-up">Comparativa</h1>
+      </header>
+      <table class="data-table anim anim--fade-in">
+        <thead>
+          <tr><th scope="col">Año</th><th scope="col">Alternativa</th><th scope="col">Ventaja</th><th scope="col">Límite</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>0000</td><td>Elemento</td><td>Rasgo</td><td>Restricción</td></tr>
+          <tr><td>0000</td><td>Elemento</td><td>Rasgo</td><td>Restricción</td></tr>
+          <tr><td>0000</td><td>Elemento</td><td>Rasgo</td><td>Restricción</td></tr>
+          <tr><td>0000</td><td>Elemento</td><td>Rasgo</td><td>Restricción</td></tr>
+        </tbody>
+      </table>
+      <p class="source-note">Fuente: …</p>
+    </section>
+
+    <!-- s5 · credits -->
+    <section class="slide slide--credits" id="s5" data-type="credits" data-title="Ficha">
+      <header class="slide-head">
+        <h1 class="slide-title anim anim--fade-up">Ficha</h1>
+      </header>
+      <dl class="credits-list anim anim--fade-up">
+        <div><dt>Nombre</dt><dd>—</dd></div>
+        <div><dt>Año</dt><dd>—</dd></div>
+        <div><dt>Ámbito</dt><dd>—</dd></div>
+        <div><dt>Autoría</dt><dd>—</dd></div>
+        <div><dt>Cifra clave</dt><dd>—</dd></div>
+        <div><dt>Estado</dt><dd>—</dd></div>
+      </dl>
+      <p class="source-note">Fuente: …</p>
+    </section>
+
+    <!-- s6 · person -->
+    <section class="slide slide--person" id="s6" data-type="person" data-title="Un perfil">
+      <figure class="person-figure anim anim--from-left">
+        <img src="assets/people/persona.jpg" alt="Nombre, año de la imagen" data-credit="Autor · Origen">
+        <figcaption>Atribución de la imagen · uso educativo</figcaption>
+      </figure>
+      <div class="person-body">
+        <h1 class="slide-title anim anim--fade-up">Nombre</h1>
+        <p class="person-role">Rol · años de actividad</p>
+        <p class="anim anim--fade-up" style="--delay:120ms">Dos o tres frases sobre su aporte al tema.</p>
+      </div>
+      <p class="source-note">Fuente: …</p>
+    </section>
+
+    <!-- s7 · quote -->
+    <section class="slide slide--quote" id="s7" data-type="quote" data-title="Una cita">
+      <blockquote class="quote anim anim--fade-up">
+        <p>«Texto literal de la cita, sin alterar ni su forma ni su sentido.»</p>
+        <footer class="quote-source">Autor, <cite>Obra o declaración</cite>, año</footer>
+      </blockquote>
+      <p class="source-note">Fuente: publicación, fecha.</p>
+    </section>
+
+    <!-- s8 · data -->
+    <section class="slide slide--data" id="s8" data-type="data" data-title="Datos">
+      <header class="slide-head">
+        <h1 class="slide-title anim anim--fade-up">Datos</h1>
+      </header>
+      <div class="grid-3">
+        <div class="kpi anim anim--fade-up"><span class="kpi-value">00%</span><span class="kpi-label">Descripción del dato y su ámbito</span></div>
+        <div class="kpi anim anim--fade-up" style="--delay:120ms"><span class="kpi-value">0000</span><span class="kpi-label">Descripción del dato</span></div>
+        <div class="kpi anim anim--fade-up" style="--delay:240ms"><span class="kpi-value">000</span><span class="kpi-label">Descripción del dato</span></div>
+      </div>
+      <p class="source-note">Fuente: …</p>
+    </section>
+
+    <!-- s9 · closing -->
+    <section class="slide slide--closing" id="s9" data-type="closing" data-title="Cierre">
+      <h1 class="closing-title anim anim--fade-up">Gracias</h1>
+      <p class="closing-subtitle">Fuentes y atribuciones en <code>fuentes.md</code> · Informe de soporte disponible</p>
+    </section>
+
+  </main>
+
+  <nav class="deck-nav" aria-label="Navegación de la presentación">
+    <button class="nav-btn nav-btn--prev" type="button" aria-label="Diapositiva anterior">‹</button>
+    <span class="deck-progress" aria-live="polite">
+      <span class="deck-progress__current">1</span><span aria-hidden="true">/</span><span class="deck-progress__total">9</span>
+    </span>
+    <button class="nav-btn nav-btn--next" type="button" aria-label="Diapositiva siguiente">›</button>
+    <button class="nav-btn nav-btn--fs" type="button" aria-label="Pantalla completa">⛶</button>
+  </nav>
+
+  <script src="slides.js"></script>
+</body>
+</html>
